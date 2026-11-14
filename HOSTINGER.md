@@ -9,4 +9,4 @@ Requires Node.js 22+ for building. The exported website needs only static hostin
 
 A Git pull alone does not build or install the website. Do not expose the repository, node_modules, or environment files in public_html.
 
-Home and About are implemented. Services and Contact designs are still pending. Contact and WhatsApp remain unconfigured in lib/site-config.ts. Supply confirmed details before enabling those actions. Image attribution is retained on the linked image credits page. The supplied logo was prepared as a transparent asset; replace it with the original transparent master if exact artwork fidelity is required.
+Home, About, Services, and Contact are implemented. Contact and WhatsApp remain unconfigured in lib/site-config.ts. Supply confirmed details before enabling those actions. Image attribution is retained on the linked image credits page. The supplied logo was prepared as a transparent asset; replace it with the original transparent master if exact artwork fidelity is required.

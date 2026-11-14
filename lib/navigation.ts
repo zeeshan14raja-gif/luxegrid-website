@@ -4,10 +4,10 @@ export const navigation = [
   ["Services", "/services/"],
   ["Contact", "/contact/"],
 ];
-// Change these only after the corresponding supplied mockup is implemented.
+// All four pages are available; simple Services and Contact layouts authorized by the owner.
 export const approvedPages = {
   home: true,
   about: true,
-  services: false,
-  contact: false,
+  services: true,
+  contact: true,
 };

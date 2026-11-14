@@ -4,9 +4,7 @@ Reference-led Next.js 16 / React 19 / TypeScript / Tailwind CSS 4 website with G
 
 ## Current scope
 
-The supplied Home and About references have been implemented. The owner explicitly asked to wait for approved Services and Contact references before laying out those pages. Those two routes, the contact form, and FAQ remain pending. Services navigation currently opens the six-card Home section. Service detail and contact actions are visibly unavailable rather than pointing to nonexistent pages.
-
-The owner-supplied gold logo is now used in the header and footer as a prepared transparent asset. No invented contact information, listings, projects, testimonials, or achievements have been added. See HOSTINGER.md for deployment.
+All four routes are implemented. Home and About follow the supplied references; the owner authorized simple Services and Contact pages in the same theme. The compact logo appears in the sticky header and footer. Services includes six descriptions and accessible FAQ disclosures. Contact provides native form validation; sending stays disabled until a verified enquiry endpoint is configured in lib/site-config.ts. No enquiries are stored or falsely reported as sent.
 
 ## Local development
 
@@ -44,12 +42,8 @@ Original individual photographic assets and exact font files were not supplied. 
 
 The Home desktop capture is at 1024 pixels wide; About is at 941 pixels wide, matching the supplied reference widths. Differences in images, font metrics, and omitted logos remain. This is not represented as pixel-perfect.
 
-## Next steps after receiving the missing references
+## Remaining configuration
 
-1. Implement `/services` and `/contact` from the supplied approved images.
-2. Add the specified FAQ interactions and enquiry form validation.
-3. Configure a verified enquiry recipient or submission service before enabling sending.
-4. Insert the original logo and photographic assets only when supplied and authorized.
-5. Enable the corresponding page flags, then repeat visual and functional checks.
+Supply a verified enquiry recipient/service endpoint and contact details before enabling sending. Review the live domain metadata before public launch. All four routes are available.
 
 The preview is private and `robots` indexing is disabled for review.
