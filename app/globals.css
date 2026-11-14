@@ -1896,3 +1896,7 @@ section[id] {
 .brand-logo img{width:155px;height:46px}
 .footer-brand .brand-logo img{width:145px;height:45px}
 @media(max-width:760px){.brand-logo img{width:140px;height:43px}}
+/* Further 30 percent reduction from the previous brand dimensions. */
+.brand-logo img{width:108.5px;height:32.2px}
+.footer-brand .brand-logo img{width:101.5px;height:31.5px}
+@media(max-width:760px){.brand-logo img{width:98px;height:30.1px}}
