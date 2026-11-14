@@ -1865,3 +1865,25 @@ section[id] {
     );
   }
 }
+
+/* Polished sticky navigation and aligned contact/footer controls. */
+.site-header{position:fixed;transition:background .25s,box-shadow .25s,backdrop-filter .25s}
+.site-header.is-scrolled{background:rgba(12,14,15,.96);backdrop-filter:blur(16px);box-shadow:0 1px 0 #d5aa602b}
+.header-inner{height:84px;min-height:84px;max-height:84px;transition:height .25s}
+.is-scrolled .header-inner{height:72px;min-height:72px}
+.brand-logo img{display:block;width:220px;height:64px;object-fit:contain}
+.footer-brand .brand-logo img{width:185px;height:62px}
+.cta-actions{gap:28px;align-items:center;flex-wrap:wrap}
+.cta-actions .button-gold{min-height:46px;gap:26px;padding:12px 22px;line-height:1.2}
+.cta-actions .button-gold .icon{width:20px;height:20px;stroke-width:1.5}
+.whatsapp-link{gap:10px;min-height:46px;line-height:1.2}
+.whatsapp-link .icon{width:28px;height:28px;min-width:28px;min-height:28px;stroke-width:1.5}
+.button-gold[aria-disabled="true"],.whatsapp-link[aria-disabled="true"]{opacity:1}
+.cta-inner,.about-cta .cta-inner{padding-top:32px;padding-bottom:32px;column-gap:36px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.cta-details,.about-cta .cta-details{padding-left:32px}
+.cta-details>p,.about-cta .cta-details>p{margin-bottom:20px;max-width:540px;line-height:1.5}
+.islamabad-copy,.about-page .islamabad-copy{padding-top:24px;padding-bottom:24px}
+.islamabad-section,.about-page .islamabad-section{height:auto;min-height:190px;display:flex;align-items:center}
+.site-footer{gap:32px;flex-wrap:wrap;padding-top:25px;padding-bottom:25px}
+.footer-brand{padding-right:32px}.credits-link{font-size:10px;color:#b7b5ae;margin-left:auto}.socials{margin-left:0;gap:20px}.socials .icon{width:17px;height:17px}
+@media(max-width:760px){.header-inner{height:76px;min-height:76px}.brand-logo img{width:190px;height:58px}.cta-inner,.about-cta .cta-inner{display:block;padding:32px 7vw}.cta-details,.about-cta .cta-details{padding-left:0}.cta-actions{gap:22px}.islamabad-section,.about-page .islamabad-section{min-height:410px;align-items:flex-end}.credits-link{order:3;margin-left:0}.socials{margin-left:auto}.footer-brand{padding-right:0}}

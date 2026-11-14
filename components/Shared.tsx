@@ -182,14 +182,6 @@ export function Islamabad({ about = false }: { about?: boolean }) {
         sizes="100vw"
       />
       <div className="islamabad-overlay" />
-      <a
-        className="photo-credit"
-        href="/image-credits.html"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Photo: Shoaib Zafar · CC BY-SA 4.0
-      </a>
       <div className="islamabad-copy" data-reveal>
         <Eyebrow>Islamabad</Eyebrow>
         <h2>Rooted in Islamabad.</h2>
@@ -275,6 +267,7 @@ export function Footer({ current }: { current: string }) {
           </Link>
         ))}
       </nav>
+      <a className="credits-link" href="/image-credits.html">Image credits</a>
       <div className="socials">
         {Object.entries(siteConfig.socials).map(([name, url]) =>
           url ? (

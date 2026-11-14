@@ -6,10 +6,7 @@ import { Icon } from "./Icon";
 import { navigation } from "@/lib/navigation";
 export function Brand() {
   return (
-    <span className="brand">
-      <span>LUXEGRID</span>
-      <small>CONSTRUCTION &amp; MARKETING</small>
-    </span>
+    <span className="brand brand-logo"><img src="/images/luxegrid-logo.png" alt="LuxeGrid Construction & Marketing" width="240" height="80" /></span>
   );
 }
 export function SiteHeader() {

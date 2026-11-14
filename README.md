@@ -6,7 +6,7 @@ Reference-led Next.js 16 / React 19 / TypeScript / Tailwind CSS 4 website with G
 
 The supplied Home and About references have been implemented. The owner explicitly asked to wait for approved Services and Contact references before laying out those pages. Those two routes, the contact form, and FAQ remain pending. Services navigation currently opens the six-card Home section. Service detail and contact actions are visibly unavailable rather than pointing to nonexistent pages.
 
-No logo, substitute logo, decorative architectural brand mark, invented contact information, listings, projects, testimonials, or achievements have been added. The text-only wordmark can be replaced in `components/SiteHeader.tsx` without changing the header structure.
+The owner-supplied gold logo is now used in the header and footer as a prepared transparent asset. No invented contact information, listings, projects, testimonials, or achievements have been added. See HOSTINGER.md for deployment.
 
 ## Local development
 
