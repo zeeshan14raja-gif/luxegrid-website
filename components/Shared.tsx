@@ -221,6 +221,7 @@ export function ContactCTA({ about = false }: { about?: boolean }) {
               : "Whether you’re planning to buy, sell, rent, or build, our team is here to guide you."}
           </p>
           <div className="cta-actions">
+            <a className="button-gold" href="tel:+923267770162"><Icon name="phone"/>Call Us</a>
             <ButtonLink href="/contact/">
               {about ? "Contact Us" : "Get in Touch"}
             </ButtonLink>
@@ -281,13 +282,7 @@ export function Footer({ current }: { current: string }) {
               <Icon name={name} />
             </a>
           ) : (
-            <span
-              key={name}
-              aria-label={`${name}: link not configured`}
-              title={`${name} link not yet provided`}
-            >
-              <Icon name={name} />
-            </span>
+            null
           ),
         )}
       </div>

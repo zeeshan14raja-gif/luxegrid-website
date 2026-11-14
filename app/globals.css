@@ -1900,3 +1900,4 @@ section[id] {
 .brand-logo img{width:108.5px;height:32.2px}
 .footer-brand .brand-logo img{width:101.5px;height:31.5px}
 @media(max-width:760px){.brand-logo img{width:98px;height:30.1px}}
+.contact-direct{display:grid;gap:12px;margin-top:24px;font-size:14px}.contact-direct a:hover{text-decoration:underline;text-underline-offset:4px}.form-trap{position:absolute!important;left:-10000px!important;width:1px;height:1px;overflow:hidden}.cta-actions{gap:16px}.cta-actions .button-gold{gap:14px}
